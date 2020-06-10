@@ -35,8 +35,8 @@ jobs:
         run: yarn --frozen-lockfile --check-files
       - name: Bump new version
         run: |
-          git config --local user.email "khanh.hoang@dinovative.com"
-          git config --local user.name "khanh.hoang"
+          git config --local user.email "hoangchaukhanh93@gmail.com"
+          git config --local user.name "Khánh Hoàng"
           yarn release
       - name: Push changes
         run: git push --follow-tags
