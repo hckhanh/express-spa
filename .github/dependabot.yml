@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      timezone: "Asia/Saigon"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "hckhanh"
+    ignore:
+      - dependency-name: "eslint"
+        versions:
+          - "< 7.3"
+    commit-message:
+      prefix: "deps"
+      include: "scope"

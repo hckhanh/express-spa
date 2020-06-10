@@ -1,0 +1,42 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  push:
+
+    runs-on: ubuntu-latest
+
+    if: "!contains(github.event.head_commit.message, 'chore(release):')"
+
+    steps:
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - name: Cache dependencies and build outputs
+        uses: actions/cache@v2
+        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+      - name: Check dependencies
+        run: yarn --frozen-lockfile --check-files
+      - name: Bump new version
+        run: |
+          git config --local user.email "khanh.hoang@dinovative.com"
+          git config --local user.name "khanh.hoang"
+          yarn release
+      - name: Push changes
+        run: git push --follow-tags

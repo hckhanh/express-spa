@@ -1,0 +1,26 @@
+{
+  "name": "express-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "@godaddy/terminus": "^4.4.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^5.0.0-alpha.8",
+    "helmet": "^3.22.0",
+    "lightship": "^6.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.5",
+    "prettier": "2.0.5",
+    "standard-version": "^8.0.0"
+  }
+}
