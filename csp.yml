@@ -1,0 +1,29 @@
+loose: true
+directives:
+  defaultSrc:
+    - "'none'"
+  styleSrc:
+    - "data:"
+    - "blob:"
+    - "'unsafe-inline'"
+    - "*"
+  imgSrc:
+    - "'self'"
+    - "data:"
+  baseUri:
+    - "'self'"
+  frameAncestors:
+    - "'none'"
+  manifestSrc:
+    - "'self'"
+  mediaSrc:
+    - "'none'"
+  formAction:
+    - "'none'"
+  objectSrc:
+    - "'none'"
+  workerSrc:
+    - "'self'"
+    - "blob:"
+  upgradeInsecureRequests: true
+  blockAllMixedContent: true

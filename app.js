@@ -6,13 +6,19 @@ const path = require("path");
 
 const buildPath = process.env.BUILD_PATH;
 const corsConfigs = require("./configs/cors");
-const enableGzip = process.env.ENABLE_GZIP && JSON.parse(process.env.ENABLE_GZIP)
+const helmetConfigs = require("./configs/helmet");
+const enableGzip =
+  process.env.ENABLE_GZIP && JSON.parse(process.env.ENABLE_GZIP);
 
 const app = express();
 
 enableGzip && app.use(compression());
 app.use(cors(corsConfigs));
 app.use(helmet());
+app.use(helmet.permittedCrossDomainPolicies());
+app.use(helmet.referrerPolicy({ policy: helmetConfigs.referrerPolicy }));
+helmetConfigs.enableCsp &&
+  app.use(helmet.contentSecurityPolicy(helmetConfigs.csp));
 
 app.use(express.static(path.join(__dirname, buildPath)));
 
