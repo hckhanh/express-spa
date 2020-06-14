@@ -11,7 +11,7 @@
     "cors": "^2.8.5",
     "debug": "^4.1.1",
     "express": "^5.0.0-alpha.8",
-    "helmet": "^3.22.1",
+    "helmet": "^3.23.0",
     "js-yaml": "^3.14.0",
     "lightship": "^6.1.0"
   },
