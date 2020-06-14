@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/hckhanh/express-spa/compare/v0.0.3...v0.0.4) (2020-06-14)
+
+
+### Features
+
+* **helmet:** update security headers and add csp ([04dcc9c](https://github.com/hckhanh/express-spa/commit/04dcc9c2b8920712da5f96ff164e005309899e4d))
+* **helmet:** update security headers and add csp ([29870bf](https://github.com/hckhanh/express-spa/commit/29870bf1a110f44f9c4b3952ce7eb81a6c6483f2))
+
 ### [0.0.3](https://github.com/hckhanh/express-spa/compare/v0.0.2...v0.0.3) (2020-06-12)
 
 
