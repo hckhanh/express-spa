@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/hckhanh/express-spa/compare/v0.0.5...v0.0.6) (2020-06-14)
+
+
+### Bug Fixes
+
+* **csp:** add missing data: to worker-src ([38c2f52](https://github.com/hckhanh/express-spa/commit/38c2f520ecaa6ec6a1037f951861bec21caf9eb9))
+
 ### [0.0.5](https://github.com/hckhanh/express-spa/compare/v0.0.4...v0.0.5) (2020-06-14)
 
 
