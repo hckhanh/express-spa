@@ -28,5 +28,6 @@ directives:
   workerSrc:
     - "'self'"
     - "blob:"
+    - "data:"
   upgradeInsecureRequests: true
   blockAllMixedContent: true
