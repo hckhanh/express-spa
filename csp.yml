@@ -2,6 +2,9 @@ loose: true
 directives:
   defaultSrc:
     - "'none'"
+  fontSrc:
+    - "'self'"
+    - "*"
   styleSrc:
     - "data:"
     - "blob:"
