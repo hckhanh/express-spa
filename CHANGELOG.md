@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/hckhanh/express-spa/compare/v0.0.6...v0.0.7) (2020-06-15)
+
+
+### Features
+
+* **csp:** add script-src-elm directive ([9c140a7](https://github.com/hckhanh/express-spa/commit/9c140a7321f85330027eb9934eb936780a271105))
+
 ### [0.0.6](https://github.com/hckhanh/express-spa/compare/v0.0.5...v0.0.6) (2020-06-14)
 
 
