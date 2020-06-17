@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/hckhanh/express-spa/compare/v0.0.8...v0.0.9) (2020-06-17)
+
+
+### Features
+
+* **express:** add `trust proxy` setting ([d596c1c](https://github.com/hckhanh/express-spa/commit/d596c1cb1fa45256fd836d19cf62a24d2558d316))
+
 ### [0.0.8](https://github.com/hckhanh/express-spa/compare/v0.0.7...v0.0.8) (2020-06-17)
 
 
