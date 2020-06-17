@@ -5,14 +5,14 @@ const compression = require("compression");
 const path = require("path");
 
 const buildPath = process.env.BUILD_PATH;
+const expressConfigs = require("./configs/express");
 const corsConfigs = require("./configs/cors");
 const helmetConfigs = require("./configs/helmet");
-const enableGzip =
-  process.env.ENABLE_GZIP && JSON.parse(process.env.ENABLE_GZIP);
 
 const app = express();
+app.set("trust proxy", expressConfigs.trustProxy);
 
-enableGzip && app.use(compression());
+expressConfigs.enableGzip && app.use(compression());
 app.use(cors(corsConfigs));
 app.use(helmet());
 app.use(helmet.permittedCrossDomainPolicies());
