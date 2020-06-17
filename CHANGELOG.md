@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/hckhanh/express-spa/compare/v0.0.7...v0.0.8) (2020-06-17)
+
+
+### Dependencies
+
+* **deps:** bump helmet from 3.23.0 to 3.23.1 ([297fad2](https://github.com/hckhanh/express-spa/commit/297fad2c6ebe2152b9f4c903a1a49374761b942a))
+
 ### [0.0.7](https://github.com/hckhanh/express-spa/compare/v0.0.6...v0.0.7) (2020-06-15)
 
 
