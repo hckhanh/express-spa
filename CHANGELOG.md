@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/hckhanh/express-spa/compare/v0.0.9...v0.0.10) (2020-06-25)
+
+
+### Dependencies
+
+* **deps:** bump helmet from 3.23.1 to 3.23.2 ([e14cc48](https://github.com/hckhanh/express-spa/commit/e14cc4842d53d34a8c83db83cce17db38e5c3593))
+* **deps-dev:** bump @commitlint/cli from 8.3.5 to 9.0.1 ([d91f0c7](https://github.com/hckhanh/express-spa/commit/d91f0c71510a2476e91ad944e788b6026a8b16b9))
+* **deps-dev:** bump @commitlint/config-conventional from 8.3.4 to 9.0.1 ([#4](https://github.com/hckhanh/express-spa/issues/4)) ([dfc980b](https://github.com/hckhanh/express-spa/commit/dfc980bce0c261058a8321403d5b88c392433e0a))
+
 ### [0.0.9](https://github.com/hckhanh/express-spa/compare/v0.0.8...v0.0.9) (2020-06-17)
 
 
