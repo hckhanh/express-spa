@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/hckhanh/express-spa/compare/v0.0.10...v0.0.11) (2020-06-25)
+
+
+### Dependencies
+
+* **deps-dev:** bump @commitlint/config-conventional from 8.3.4 to 9.0.1 ([#4](https://github.com/hckhanh/express-spa/issues/4)) ([723ed8c](https://github.com/hckhanh/express-spa/commit/723ed8c5591056efc9dc31be10c41366ec2bb788))
+
 ### [0.0.10](https://github.com/hckhanh/express-spa/compare/v0.0.9...v0.0.10) (2020-06-25)
 
 
