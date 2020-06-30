@@ -4,6 +4,7 @@ directives:
     - "'none'"
   fontSrc:
     - "'self'"
+    - "data:"
     - "*"
   styleSrc:
     - "data:"
