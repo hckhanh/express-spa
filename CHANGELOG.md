@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/hckhanh/express-spa/compare/v0.0.10...v0.0.11) (2020-06-30)
+
+
+### Bug Fixes
+
+* **csp:** add `data:` to `font-src` directive ([dafa749](https://github.com/hckhanh/express-spa/commit/dafa749f76abe12662b658803309a5cd9d880927))
+
+
+### Dependencies
+
+* **deps:** bump helmet from 3.23.2 to 3.23.3 ([eff6f67](https://github.com/hckhanh/express-spa/commit/eff6f67666d25b9a3fb2caf83730433d973f662e))
+
 ### [0.0.10](https://github.com/hckhanh/express-spa/compare/v0.0.9...v0.0.10) (2020-06-25)
 
 
