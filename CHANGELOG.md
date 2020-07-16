@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/hckhanh/express-spa/compare/v0.0.12...v0.0.13) (2020-07-16)
+
+
+### Features
+
+* **workflow:** upgrade actions/setup-node from v1 to v2 ([7d87cfc](https://github.com/hckhanh/express-spa/commit/7d87cfcdaf62bc0425930237444ee1bb473a3a4e))
+
 ### [0.0.12](https://github.com/hckhanh/express-spa/compare/v0.0.11...v0.0.12) (2020-07-16)
 
 
