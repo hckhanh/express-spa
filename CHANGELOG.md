@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/hckhanh/express-spa/compare/v0.0.11...v0.0.12) (2020-07-16)
+
+
+### Dependencies
+
+* **deps:** bump lodash from 4.17.15 to 4.17.19 ([#12](https://github.com/hckhanh/express-spa/issues/12)) ([5b37d51](https://github.com/hckhanh/express-spa/commit/5b37d51516c0fffd124c27aeaa49849287927bed))
+* **deps-dev:** bump @commitlint/cli from 9.0.1 to 9.1.1 ([#10](https://github.com/hckhanh/express-spa/issues/10)) ([4922ea3](https://github.com/hckhanh/express-spa/commit/4922ea3fa57868a1e7b9919a91df65bae65b24c6))
+* **deps-dev:** bump @commitlint/config-conventional from 9.0.1 to 9.1.1 ([#9](https://github.com/hckhanh/express-spa/issues/9)) ([879dd8f](https://github.com/hckhanh/express-spa/commit/879dd8f29eb770669a7d0a248ee3d4c2f34a96df))
+* **deps-dev:** bump standard-version from 8.0.0 to 8.0.2 ([d532dd4](https://github.com/hckhanh/express-spa/commit/d532dd42498e3f77c7cc5f6ee2f9b335c7f6f9e8))
+* **deps-dev:** bump standard-version from 8.0.0 to 8.0.2 ([#11](https://github.com/hckhanh/express-spa/issues/11)) ([9f24167](https://github.com/hckhanh/express-spa/commit/9f241677e417280fe89fc1264af69a3b2eb43819))
+
 ### [0.0.11](https://github.com/hckhanh/express-spa/compare/v0.0.10...v0.0.11) (2020-06-30)
 
 
