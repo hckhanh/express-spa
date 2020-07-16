@@ -14,9 +14,10 @@ jobs:
 
     steps:
       - name: Use Node.js 12.x
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.1.0
         with:
-          node-version: 12.x
+          node-version: 12
+          check-latest: true
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
