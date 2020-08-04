@@ -14,11 +14,12 @@ app.set("trust proxy", expressConfigs.trustProxy);
 
 expressConfigs.enableGzip && app.use(compression());
 app.use(cors(corsConfigs));
-app.use(helmet());
-app.use(helmet.permittedCrossDomainPolicies());
-app.use(helmet.referrerPolicy({ policy: helmetConfigs.referrerPolicy }));
-helmetConfigs.enableCsp &&
-  app.use(helmet.contentSecurityPolicy(helmetConfigs.csp));
+app.use(
+  helmet({
+    referrerPolicy: { policy: helmetConfigs.referrerPolicy },
+    contentSecurityPolicy: helmetConfigs.enableCsp && helmetConfigs.csp
+  })
+);
 
 app.use(express.static(path.join(__dirname, buildPath)));
 

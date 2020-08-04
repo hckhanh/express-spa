@@ -1,34 +1,28 @@
-loose: true
 directives:
   defaultSrc:
-    - "'none'"
+    - "'self'"
   fontSrc:
     - "'self'"
+    - "https:"
     - "data:"
-    - "*"
   styleSrc:
-    - "data:"
-    - "blob:"
+    - "'self'"
+    - "https:"
     - "'unsafe-inline'"
-    - "*"
   imgSrc:
     - "'self'"
     - "data:"
   baseUri:
     - "'self'"
   frameAncestors:
-    - "'none'"
-  manifestSrc:
     - "'self'"
-  mediaSrc:
-    - "'none'"
-  formAction:
-    - "'none'"
   objectSrc:
+    - "'none'"
+  scriptSrcAttr:
     - "'none'"
   workerSrc:
     - "'self'"
     - "blob:"
     - "data:"
-  upgradeInsecureRequests: true
-  blockAllMixedContent: true
+  upgradeInsecureRequests: []
+  blockAllMixedContent: []
