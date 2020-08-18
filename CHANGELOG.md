@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.17](https://github.com/hckhanh/express-spa/compare/v0.0.16...v0.0.17) (2020-08-18)
+
+
+### Dependencies
+
+* **deps:** bump helmet from 4.0.0 to 4.1.0 ([#15](https://github.com/hckhanh/express-spa/issues/15)) ([b4b8383](https://github.com/hckhanh/express-spa/commit/b4b83834f1c0896b056912bfafe9e57d9023d356))
+* **deps-dev:** bump @commitlint/cli from 9.1.1 to 9.1.2 ([#16](https://github.com/hckhanh/express-spa/issues/16)) ([2d5ec60](https://github.com/hckhanh/express-spa/commit/2d5ec60797862e9c725ca2d243d372536c79b4f6))
+* **deps-dev:** bump @commitlint/config-conventional from 9.1.1 to 9.1.2 ([#18](https://github.com/hckhanh/express-spa/issues/18)) ([8828e2f](https://github.com/hckhanh/express-spa/commit/8828e2fb1569d21a170070dd3efe571cac0199c9))
+* **deps-dev:** bump standard-version from 8.0.2 to 9.0.0 ([#17](https://github.com/hckhanh/express-spa/issues/17)) ([ea1c727](https://github.com/hckhanh/express-spa/commit/ea1c7276782a44e8715b8294254a7722a64b33a5))
+
 ### [0.0.16](https://github.com/hckhanh/express-spa/compare/v0.0.15...v0.0.16) (2020-08-05)
 
 ### [0.0.15](https://github.com/hckhanh/express-spa/compare/v0.0.14...v0.0.15) (2020-08-04)
