@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.18](https://github.com/hckhanh/express-spa/compare/v0.0.17...v0.0.18) (2020-09-10)
+
+
+### Dependencies
+
+* **deps-dev:** bump husky from 4.2.5 to 4.3.0 ([5ced94b](https://github.com/hckhanh/express-spa/commit/5ced94b963428002d042650ab758831c99a379c3))
+
 ### [0.0.17](https://github.com/hckhanh/express-spa/compare/v0.0.16...v0.0.17) (2020-08-18)
 
 
