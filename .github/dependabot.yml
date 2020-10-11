@@ -15,3 +15,13 @@ updates:
     commit-message:
       prefix: "deps"
       include: "scope"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      timezone: "Asia/Saigon"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "hckhanh"
+    commit-message:
+      prefix: "build"
