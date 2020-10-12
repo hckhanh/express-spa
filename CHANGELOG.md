@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.19](https://github.com/hckhanh/express-spa/compare/v0.0.18...v0.0.19) (2020-10-12)
+
+
+### Features
+
+* **deps:** add dependabot for github actions ([2577c70](https://github.com/hckhanh/express-spa/commit/2577c700e1ce7e9226a82f8510a56be4226737bf))
+
+
+### Dependencies
+
+* **deps:** bump debug from 4.1.1 to 4.2.0 ([#26](https://github.com/hckhanh/express-spa/issues/26)) ([6949244](https://github.com/hckhanh/express-spa/commit/69492448b3d4b91bd66a518ba260cc5e12ad7c12))
+* **deps:** bump helmet from 4.1.0 to 4.1.1 ([#22](https://github.com/hckhanh/express-spa/issues/22)) ([d8426b0](https://github.com/hckhanh/express-spa/commit/d8426b064d757cd8d7d5100b3faa9d8a95990262))
+* **deps:** bump lightship from 6.1.0 to 6.1.1 ([#28](https://github.com/hckhanh/express-spa/issues/28)) ([5ad69a4](https://github.com/hckhanh/express-spa/commit/5ad69a47f66518616482e31ebf3f455700331cd9))
+* **deps-dev:** bump @commitlint/cli from 9.1.2 to 11.0.0 ([#24](https://github.com/hckhanh/express-spa/issues/24)) ([dd10002](https://github.com/hckhanh/express-spa/commit/dd1000282444e76b6082fcea86f4863971a8ed5e))
+* **deps-dev:** bump @commitlint/config-conventional ([#23](https://github.com/hckhanh/express-spa/issues/23)) ([7e95b61](https://github.com/hckhanh/express-spa/commit/7e95b61a3f8275cfd0dc28ea6419b428916acb35))
+* **deps-dev:** bump prettier from 2.0.5 to 2.1.1 ([#20](https://github.com/hckhanh/express-spa/issues/20)) ([904939a](https://github.com/hckhanh/express-spa/commit/904939aa3ff6b29f6ba2d8f6dbd57e0657f2cb07))
+* **deps-dev:** bump prettier from 2.1.1 to 2.1.2 ([#25](https://github.com/hckhanh/express-spa/issues/25)) ([dd283ff](https://github.com/hckhanh/express-spa/commit/dd283ff0c4ea66502a1296ba0d7c862686ff3e3c))
+
 ### [0.0.18](https://github.com/hckhanh/express-spa/compare/v0.0.17...v0.0.18) (2020-09-10)
 
 
