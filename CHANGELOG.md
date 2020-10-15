@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.20](https://github.com/hckhanh/express-spa/compare/v0.0.19...v0.0.20) (2020-10-15)
+
+
+### Dependencies
+
+* **deps:** bump lightship from 6.1.1 to 6.2.0 ([116600c](https://github.com/hckhanh/express-spa/commit/116600c457922835cb784e4278e610cbc61c88d2))
+
 ### [0.0.19](https://github.com/hckhanh/express-spa/compare/v0.0.18...v0.0.19) (2020-10-12)
 
 
