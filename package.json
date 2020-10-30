@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "release": "standard-version"
+    "release": "standard-version --no-verify"
   },
   "dependencies": {
     "compression": "^1.7.4",
