@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.22](https://github.com/hckhanh/express-spa/compare/v0.0.21...v0.0.22) (2020-10-30)
+
+
+### Features
+
+* **docker:** dockerized the package ([bfb9796](https://github.com/hckhanh/express-spa/commit/bfb97961f35610875e0754ec01f66f59a176e7b4))
+* **node:** remove node-version to use default LTS version ([ca83b92](https://github.com/hckhanh/express-spa/commit/ca83b92226ac55280f7650fcccdda92532f6b883))
+* **yarn:** set policy to lock yarn version to 1.22.10 ([e25e980](https://github.com/hckhanh/express-spa/commit/e25e9805316f88bcc659a62953795e2658f069e3))
+
 ### [0.0.21](https://github.com/hckhanh/express-spa/compare/v0.0.20...v0.0.21) (2020-10-24)
 
 
