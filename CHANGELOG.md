@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.23](https://github.com/hckhanh/express-spa/compare/v0.0.22...v0.0.23) (2020-10-30)
+
+
+### Bug Fixes
+
+* **docker:** add context to use local context ([ff9ce6a](https://github.com/hckhanh/express-spa/commit/ff9ce6a990eaa915adc3f72675eae615ac94f8cd))
+
 ### [0.0.22](https://github.com/hckhanh/express-spa/compare/v0.0.21...v0.0.22) (2020-10-30)
 
 
