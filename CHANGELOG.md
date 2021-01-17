@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.26](https://github.com/hckhanh/express-spa/compare/v0.0.24...v0.0.26) (2021-01-17)
+
+
+### Dependencies
+
+* **deps:** bump helmet from 4.2.0 to 4.3.1 ([#45](https://github.com/hckhanh/express-spa/issues/45)) ([fb7633b](https://github.com/hckhanh/express-spa/commit/fb7633b6132999da6c45e96e0c45d012149e18d0))
+* **deps:** bump js-yaml from 3.14.0 to 4.0.0 ([#47](https://github.com/hckhanh/express-spa/issues/47)) ([b825f6f](https://github.com/hckhanh/express-spa/commit/b825f6fc01d54bc25ccf4566d008c13b5911dc09))
+* **deps-dev:** bump husky from 4.3.0 to 4.3.7 ([#48](https://github.com/hckhanh/express-spa/issues/48)) ([46f18a2](https://github.com/hckhanh/express-spa/commit/46f18a23b6720762582d3668653ccd81cbdc17c0))
+* **deps-dev:** bump prettier from 2.1.2 to 2.2.1 ([#34](https://github.com/hckhanh/express-spa/issues/34)) ([51f9382](https://github.com/hckhanh/express-spa/commit/51f938271738117dc779b20afac30410e88f9e0c))
+
 ### [0.0.25](https://github.com/hckhanh/express-spa/compare/v0.0.24...v0.0.25) (2021-01-17)
 
 
