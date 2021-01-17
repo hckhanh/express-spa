@@ -20,6 +20,6 @@
     "@commitlint/config-conventional": "^11.0.0",
     "husky": "^4.3.7",
     "prettier": "2.2.1",
-    "standard-version": "^9.0.0"
+    "standard-version": "^9.1.0"
   }
 }
