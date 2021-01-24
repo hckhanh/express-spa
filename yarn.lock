@@ -1420,10 +1420,10 @@ kind-of@^6.0.3:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-lightship@^6.6.0:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/lightship/-/lightship-6.6.0.tgz#5e7334eca20768ab93dcddab6a7a2054829ad7c7"
-  integrity sha512-8cW+DCLhHuTsPWWHFNuNJSrwvH4+JJInQJ0G/I5R85Yq4E9HfypvFx9fQ5+d+yU4ywcF+wh+9iTsmFpsBcEgdg==
+lightship@^6.6.1:
+  version "6.6.1"
+  resolved "https://registry.yarnpkg.com/lightship/-/lightship-6.6.1.tgz#357214b8d93107542cb0f4c90d8a843e1d97a0f5"
+  integrity sha512-+6W2MnbWNWdmO+pD/lWQHyvzgDUsWlSGnfnuf+PeTD23aeioI3aiXBjLFvaObadHFILvCptqHR2IhJ0razkygA==
   dependencies:
     delay "^4.4.0"
     express "^4.17.1"
