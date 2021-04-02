@@ -23,8 +23,6 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -38,12 +36,6 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Check dependencies
         run: yarn --frozen-lockfile --check-files
-      - name: Bump new version
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "actions"
-          yarn release
-          echo "APP_VERSION=$(node -p "require('./package.json').version")" >> $GITHUB_ENV
       - name: Build and push
         uses: docker/build-push-action@v2
         with:
@@ -51,6 +43,3 @@ jobs:
           push: true
           tags: |
             hckhanh/express-spa:latest
-            hckhanh/express-spa:${{ env.APP_VERSION }}
-      - name: Push changes
-        run: git push --follow-tags

@@ -1,7 +1,7 @@
 const yaml = require("js-yaml");
 const fs = require("fs");
 
-const csp = yaml.safeLoad(fs.readFileSync("./csp.yml", "utf8"));
+const csp = yaml.load(fs.readFileSync("./csp.yml", "utf8"));
 csp.directives.scriptSrc = process.env.CSP_SCRIPT_SRC || "'self'";
 
 if (process.env.CSP_SCRIPT_SRC_ELEM) {

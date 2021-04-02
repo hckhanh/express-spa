@@ -1,10 +1,8 @@
 {
   "name": "express-spa",
-  "version": "0.0.26",
-  "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "release": "standard-version --no-verify"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "compression": "^1.7.4",
@@ -16,10 +14,6 @@
     "lightship": "^6.6.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "husky": "^4.3.8",
-    "prettier": "2.2.1",
-    "standard-version": "^9.1.0"
+    "prettier": "2.2.1"
   }
 }
