@@ -6,5 +6,5 @@ module.exports = {
   enableGzip:
     process.env.EXPRESS_ENABLE_GZIP &&
     JSON.parse(process.env.EXPRESS_ENABLE_GZIP),
-  trustProxy
+  trustProxy,
 };

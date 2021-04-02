@@ -17,7 +17,7 @@ app.use(cors(corsConfigs));
 app.use(
   helmet({
     referrerPolicy: { policy: helmetConfigs.referrerPolicy },
-    contentSecurityPolicy: helmetConfigs.enableCsp && helmetConfigs.csp
+    contentSecurityPolicy: helmetConfigs.enableCsp && helmetConfigs.csp,
   })
 );
 

@@ -13,5 +13,5 @@ csp.directives.connectSrc = process.env.CSP_CONNECT_SRC || "'self'";
 module.exports = {
   enableCsp: process.env.ENABLE_CSP && Boolean(process.env.ENABLE_CSP),
   referrerPolicy: process.env.REFERRER_POLICY || "same-origin",
-  csp
+  csp,
 };
