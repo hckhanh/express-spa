@@ -76,3 +76,12 @@ build
 # IDEs
 .idea
 .vscode
+
+# Yarn 2 (Zero-Installs + Plug'n'Play)
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

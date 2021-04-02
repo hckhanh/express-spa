@@ -6,7 +6,7 @@ ENV NODE_ENV "production"
 WORKDIR /usr/src/app
 
 # Yarn configurations
-COPY .yarnrc ./
+COPY .yarnrc.yml ./
 
 # Yarn cache and releases
 COPY .yarn .yarn/
@@ -15,7 +15,7 @@ COPY .yarn .yarn/
 COPY package.json yarn.lock ./
 
 # Check yarn configurations and cache
-RUN yarn --frozen-lockfile --check-files
+RUN yarn --immutable --immutable-cache
 
 # Bundle app source
 COPY . .

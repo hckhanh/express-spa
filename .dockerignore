@@ -6,13 +6,8 @@ node_modules
 # Build folder
 build
 
-# Development configurations (except csp settings)
-*.yml
-.*rc
-
-# Project settings (must be included)
-!csp.yml
-!.yarnrc
-
 # Logs
 *.log
+
+# Ignores
+.gitignore
