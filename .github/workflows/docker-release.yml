@@ -21,7 +21,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.1.0
       - name: Check dependencies
         run: yarn --immutable --immutable-cache
       - name: Build and push
