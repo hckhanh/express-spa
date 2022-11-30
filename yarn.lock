@@ -359,7 +359,7 @@ __metadata:
     cors: ^2.8.5
     debug: ^4.3.1
     express: ^5.0.0-alpha.8
-    helmet: ^4.4.1
+    helmet: ^6.0.1
     js-yaml: ^4.0.0
     lightship: ^6.7.2
     prettier: 2.2.1
@@ -516,10 +516,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"helmet@npm:^4.4.1":
-  version: 4.4.1
-  resolution: "helmet@npm:4.4.1"
-  checksum: 32f5ca0517368244198355bd289765c663e80a4a23795277043d87349e46d91a1d9e42ba8dcbd66debb866fbf73ca7fc14d5980f6647dea3ea87d3c6eb0040a5
+"helmet@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "helmet@npm:6.0.1"
+  checksum: 53d2808905582540a2a22a0c6e2a5c4d0ff522a230f22c6433a40cbe92eccd8c9bbc0848497130ef262c9a0cec1224fd433a80924ea008e755239ec49a40c864
   languageName: node
   linkType: hard
 
